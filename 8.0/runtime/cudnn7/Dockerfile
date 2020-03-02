@@ -1,6 +1,6 @@
 ARG IMAGE_NAME
-FROM ${IMAGE_NAME}:8.0-runtime-centos7
-LABEL maintainer "NVIDIA CORPORATION <cudatools@nvidia.com>"
+FROM ${IMAGE_NAME}:8.0-runtime-ubi7
+LABEL maintainer "NVIDIA CORPORATION <sw-cuda-installer@nvidia.com>"
 
 ENV CUDNN_VERSION 7.1.2.21
 LABEL com.nvidia.cudnn.version="${CUDNN_VERSION}"
