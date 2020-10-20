@@ -1,5 +1,5 @@
-ARG IMAGE_NAME
-FROM ${IMAGE_NAME}:11.0-runtime-ubuntu16.04
+
+FROM cuda:11.0-runtime-ubuntu16.04
 LABEL maintainer "NVIDIA CORPORATION <cudatools@nvidia.com>"
 
 ENV CUDNN_VERSION 8.0.4.30

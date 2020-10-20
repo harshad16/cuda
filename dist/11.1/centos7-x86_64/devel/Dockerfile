@@ -1,5 +1,4 @@
-ARG IMAGE_NAME
-FROM ${IMAGE_NAME}:11.1-runtime-centos7
+FROM cuda:11.1-runtime-centos7
 
 LABEL maintainer "NVIDIA CORPORATION <sw-cuda-installer@nvidia.com>"
 

@@ -1,5 +1,5 @@
-ARG IMAGE_NAME
-FROM ${IMAGE_NAME}:8.0-runtime-ubi8
+
+FROM cuda:8.0-runtime-ubi8
 LABEL maintainer "NVIDIA CORPORATION <sw-cuda-installer@nvidia.com>"
 
 ENV CUDNN_VERSION 7.1.2.21

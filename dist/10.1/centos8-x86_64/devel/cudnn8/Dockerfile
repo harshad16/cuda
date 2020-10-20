@@ -1,5 +1,5 @@
-ARG IMAGE_NAME
-FROM ${IMAGE_NAME}:10.1-devel-centos8
+
+FROM cuda:10.1-devel-centos8
 LABEL maintainer "NVIDIA CORPORATION <sw-cuda-installer@nvidia.com>"
 
 ENV CUDNN_VERSION 8.0.4.30

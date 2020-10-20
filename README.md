@@ -1,11 +1,17 @@
-# Nvidia CUDA Linux Container Image Sources
+# Experimenting with cuda images for s2i support.
+
+## Acknowledgment
+
+The work is experiment on project [nvidia/cuda](https://gitlab.com/nvidia/container-images/cuda)
+
+## Nvidia CUDA Linux Container Image Sources
 
 Usage of the CUDA container images requires the [Nvidia Container Runtime](https://github.com/NVIDIA/nvidia-container-runtime).
 
 Container images are available from:
 
-- https://ngc.nvidia.com/catalog/containers/nvidia:cuda
-- https://hub.docker.com/r/nvidia/cuda
+- <https://ngc.nvidia.com/catalog/containers/nvidia:cuda>
+- <https://hub.docker.com/r/nvidia/cuda>
 
 ## IMAGE SECURITY NOTICE
 

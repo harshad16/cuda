@@ -1,5 +1,5 @@
-ARG IMAGE_NAME
-FROM ${IMAGE_NAME}:10.2-runtime-ubuntu18.04
+
+FROM cuda:10.2-runtime-ubuntu18.04
 
 LABEL maintainer "NVIDIA CORPORATION <cudatools@nvidia.com>"
 
